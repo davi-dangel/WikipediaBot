@@ -11,4 +11,7 @@ def __main__():
     api = tweepy.API(auth)
     api.update_status("#wikipedia\n " + wiki_page.random_wikipedia_page)
 
-__main__()
+while():
+    __main__()
+    day_time = 60 * 60 * 24
+    time.sleep(day_time)
