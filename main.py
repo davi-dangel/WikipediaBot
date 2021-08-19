@@ -9,7 +9,7 @@ auth.set_access_token(authentication.access_token, authentication.access_token_s
 def __main__():
 
     api = tweepy.API(auth)
-    api.update_status("#wikipedia\n " + wiki_page.random_wikipedia_page)
+    api.update_status("#wikipedia #todoDiaUmaPaginaAleatóriaDaWikipedia\n" + wiki_page.random_wikipedia_page)
 
 while True:
     __main__()
